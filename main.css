@@ -1,0 +1,47 @@
+#line {
+    display: flex;
+    text-align: left;
+}
+
+#input_result {
+    /* padding: 0.1px; */
+    padding: 0.1px 15px 0.1px 0.1px;
+    color: azure;
+    width: 308px;
+    height: 90px;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgb(41, 31, 31);
+    border-width: 0.1px;
+}
+
+#non_head_btn {
+    pointer-events: none;
+}
+
+.btn {
+    width: 3em;
+    height: 1.5em;
+    padding: 1em;
+    background: #5e5b5b;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    border: solid;
+    border-color: black;
+    border-width: 0.1px;
+    font-weight: bold;
+}
+
+.btn:active {
+    background: #c1bfbf;
+}
+
+#ac_btn {
+    width: 8.05em;
+}
+
+#equal_btn {
+    width: 8.05em;
+}
