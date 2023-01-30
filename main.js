@@ -55,3 +55,17 @@ function exeCalc(total, inputData, calcOperator) {
     return tmpTotal / tmpData;
   }
 }
+
+function doDicimalPoint(number) {
+  if (number === ".") {
+    if (inputData.indexOf(".") === -1) {
+      inputData += number;
+      document.myForm.result.value = inputData;
+      dataFlg = 0;
+    }
+  } else {
+    dataFlg = 0;
+    inputData += number;
+    document.myForm.result.value = Number(inputData);
+  }
+}
