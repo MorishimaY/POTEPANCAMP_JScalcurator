@@ -19,7 +19,6 @@ function doValue(number) {
   document.myForm.result.value = Number(inputData);
 }
 
-
 function doCalculate(data) {
   if (dataFlg === 0 && calcOperator != '=') {
     dataFlg = 1;
